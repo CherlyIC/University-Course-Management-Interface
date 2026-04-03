@@ -8,7 +8,7 @@ export default function DeleteConfirm({ course, onConfirm, onCancel, loading }) 
 
       <p className="text-slate-500 text-sm mb-6">
         You are about to delete{' '}
-        <span className="font-semibold text-slate-700">"{course?.name}"</span>.
+        <span className="font-semibold text-slate-700">"{course?.courseName}"</span>.
         This action cannot be undone.
       </p>
 
