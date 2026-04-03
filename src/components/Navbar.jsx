@@ -13,9 +13,9 @@ export default function Navbar() {
   return (
     <nav className="bg-white shadow-sm border-b border-sky-100 px-8 py-4 flex items-center justify-between">
       <div className="flex items-center gap-3">
-        <span className="text-2xl">🎓</span>
+
         <div>
-          <h1 className="text-lg font-bold text-sky-600 leading-none">UniCourse Manager</h1>
+          <h1 className="text-lg font-bold text-sky-600 leading-none">University Manager</h1>
           <p className="text-xs text-slate-400">Supervisor Portal</p>
         </div>
       </div>
